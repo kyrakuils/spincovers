@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPIN COVERS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <header>
+        <ul class="nav-right">
+            <li><a href="index.html">
+                    Amsterdam —
+                    <span id="amsterdamTime" data-module-time="m2" data-time-zone="Europe/Amsterdam">15:39:03</span>
+            </li>
+            </a>
+        </ul>
+
+    </header>
+
+    <main>
+
+        <!-- typewriting text -->
+
+        <div class="h1-text">SPIN R&B COVERS</div>
+        <div class="demo">
+            <p id="demo"></p>
+        </div>
+
+        <!-- albums -->
+
+        <div class="row">
+            <div class="column">
+                <img src="images/album1.jpeg.webp" style="width:100%" onclick="openModal();currentSlide(1)"
+                    class="hover-shadow cursor" alt="album1">
+            </div>
+            <div class="column">
+                <img src="images/album2.png" style="width:98%" onclick="openModal();currentSlide(2)"
+                    class="hover-shadow cursor" alt="album2">
+            </div>
+            <div class="column">
+                <img src="images/album3.jpg.webp" style="width:100%" onclick="openModal();currentSlide(3)"
+                    class="hover-shadow cursor" alt="album3">
+            </div>
+            <div class="column">
+                <img src="images/album4.jpg.webp" style="width:100%" onclick="openModal();currentSlide(4)"
+                    class="hover-shadow cursor" alt="album4">
+            </div>
+            <div class="column">
+                <img src="images/album5.jpg.webp" style="width:100%" onclick="openModal();currentSlide(5)"
+                    class="hover-shadow cursor" alt="album5">
+            </div>
+            <div class="column">
+                <img src="images/album6.jpg" style="width:100%" onclick="openModal();currentSlide(6)"
+                    class="hover-shadow cursor" alt="album6">
+            </div>
+            <div class="column">
+                <img src="images/album7.jpeg" style="width:100%" onclick="openModal();currentSlide(7)"
+                    class="hover-shadow cursor" alt="album7">
+            </div>
+            <div class="column">
+                <img src="images/album8.jpg" style="width:100%" onclick="openModal();currentSlide(8)"
+                    class="hover-shadow cursor" alt="album8">
+            </div>
+            <div class="column">
+                <img src="images/album9.jpg" style="width:100%" onclick="openModal();currentSlide(9)"
+                    class="hover-shadow cursor" alt="album9">
+            </div>
+            <div class="column">
+                <img src="images/album10.jpeg" style="width:100%" onclick="openModal();currentSlide(10)"
+                    class="hover-shadow cursor" alt="album10">
+            </div>
+            <div class="column">
+                <img src="images/album11.jpg.webp" style="width:100%" onclick="openModal();currentSlide(11)"
+                    class="hover-shadow cursor" alt="album11">
+            </div>
+            <div class="column">
+                <img src="images/album12.jpg" style="width:100%" onclick="openModal();currentSlide(12)"
+                    class="hover-shadow cursor" alt="album12">
+            </div>
+        </div>
+
+        <!-- album close up + vinyl player -->
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl1" src="images/vinyl-image.png" alt="Vinyl1">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio1" src="mp3/Muni-Long-Hrs&Hrs.mp3"></audio>
+                    <img src="images/album1.jpeg.webp" style="width:50%" alt="album1">
+                    <p class="image-description1">Muni Long's album 'Public Displays of Affection' showcases her soulful
+                        vocals and captivating songwriting. As a now rising R&B singer-songwriter, Muni Long brings
+                        heartfelt emotion and raw talent to each track, making this album a must-listen for me and so
+                        should you.</p>
+                </div>
+
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl2" src="images/vinyl-image.png" alt="Vinyl2">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio2" src="mp3/Victoria-Monét-On-My-Mama.mp3"></audio>
+                    <img src="images/album2.webp" style="width:50%" alt="album2">
+                    <p class="image-description2">Victoria Monét's album 'Jaguar ||' is a blend of R&B and soul,
+                        showcasing her powerful vocals and amazing songwriting,
+                        making it a must-listen for me and for R&B lovers.</p>
+                </div>
+
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl3" src="images/vinyl-image.png" alt="Vinyl3">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio3" src="mp3/Summer-Walker-Insane.mp3"></audio>
+                    <img src="images/album3.jpg.webp" style="width:50%" alt="album3">
+                    <p class="image-description3">Summer Walker's album 'Still Over It' has raw emotion and intimate
+                        storytelling, solidifying her place as a rising star in the R&B world,
+                        inviting listeners into a journey of heartbreak and self-discovery.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl4" src="images/vinyl-image.png" alt="Vinyl4">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio4" src="mp3/Brent Faiyaz-LOOSE-CHANGE.mp3"></audio>
+                    <img src="images/album4.jpg.webp" style="width:50%" alt="album4">
+                    <p class="image-description4">Brent Faiyaz's album 'Wasteland' takes listeners on a journey through
+                        soulful melodies and introspective lyrics,
+                        exploring themes of love, loss, and self-reflection with haunting beauty and depth.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl5" src="images/vinyl-image.png" alt="Vinyl5">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio5" src="mp3/SZA-Love-Galore.mp3"></audio>
+                    <img src="images/album5.jpg.webp" style="width:50%" alt="album5">
+                    <p class="image-description5">SZA's album 'Ctrl' is a soulful journey, blending R&B and neo-soul
+                        with lyrics that explore themes of empowerment,
+                        vulnerability, and self-discovery, the songs on the album gives listeners raw honesty and
+                        captivating melodies.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl6" src="images/vinyl-image.png" alt="Vinyl6">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio6" src="mp3/Frank-Ocean-Self-Control.mp3"></audio>
+                    <img src="images/album6.jpg" style="width:50%" alt="album6">
+                    <p class="image-description6">Frank Ocean's album 'Blond' is a blend of R&B and alternative pop,
+                        Ocean's distinctive vocals and introspective lyrics that evoke a sense of longing, nostalgia,
+                        and emotional depth, making it a modern classic.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl7" src="images/vinyl-image.png" alt="Vinyl7">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio3" src="mp3/Jhene-Aiko-WAYS.mp3"></audio>
+                    <img src="images/album7.jpeg" style="width:50%" alt="album7">
+                    <p class="image-description7">Jhené Aiko is an singer-songwriter known for her R&B sound and
+                        meaningful lyrics. Her album "Souled Out" explores different themes of love, loss, and
+                        self-discovery, creating a soulful album.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl8" src="images/vinyl-image.png" alt="Vinyl8">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio3" src="mp3/HER-Focus.mp3"></audio>
+                    <img src="images/album8.jpg" style="width:50%" alt="album8">
+                    <p class="image-description8">H.E.R., a Grammy-winning R&B artist known for her deep voice and
+                        emotional songwriting. Her self-titled album "H.E.R." showcases her soulful and relaxing vocals
+                        and style.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl9" src="images/vinyl-image.png" alt="Vinyl9">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio3" src="mp3/Kehlani-TOXIC.mp3"></audio>
+                    <img src="images/album9.jpg" style="width:50%" alt="album9">
+                    <p class="image-description9">Kehlani's album 'It Was Good Until It Wasn't' tells the complexities
+                        of love and heartbreak, with soulful R&B and lyrics that resonate deeply, offering listeners an
+                        intimate glimpse into her personal journey of growth and reflection.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl10" src="images/vinyl-image.png" alt="Vinyl10">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio10" src="mp3/Destin-Conrad-COLORWAY.mp3"></audio>
+                    <img src="images/album10.jpeg" style="width:50%" alt="album10">
+                    <p class="image-description10">Destin Conrad, a new comer in the R&B music industry, his first album
+                        'Colorway' is amazing. His voice and his sound is captivating and very much addicting. A must
+                        listen album and a well deserved artist.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl11" src="images/vinyl-image.png" alt="Vinyl11">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio3" src="mp3/Tems-Damages.mp3"></audio>
+                    <img src="images/album11.jpg.webp" style="width:50%" alt="album11">
+                    <p class="image-description11">Tems is a Nigerian singer known for her unique voice and blend of R&B
+                        and soul. Her album "For Broken Ears" showcases her beautiful vocals and lyrics, that offers a
+                        captivating journey through emotions and experiences. Defenitly a must listen.</p>
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">12 / 12</div>
+                    <div class="vinyl-container">
+                        <img id="vinyl12" src="images/vinyl-image.png" alt="Vinyl12">
+                        <button id="playButton">play / pause</button>
+                    </div>
+                    <audio id="audio3" src="mp3/Jacquees-B.E.D..mp3"></audio>
+                    <img src="images/album12.jpg" style="width:50%" alt="album12">
+                    <p class="image-description12">Destin Conrad, a new comer in the R&B music industry, his 3rd album,
+                        just as amazing as the first and second one. His voice and the sound of his music is captivating
+                        and addicting to listen to. A must listen and a well deserved artist.</p>
+                </div>
+
+                <!-- next & previous buttons -->
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- albums extra preview -->
+
+                <div class="row1">
+                    <div class="column1">
+
+                        <img class="demo cursor" src="images/album1.jpeg.webp" style="width:100%"
+                            onclick="currentSlide(1)" alt="MUNI LONG">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album2.png" style="width:100%" onclick="currentSlide(2)"
+                            alt="VICTORIA MONET">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album3.jpg.webp" style="width:100%"
+                            onclick="currentSlide(3)" alt="SUMMER WALKER">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album4.jpg.webp" style="width:100%"
+                            onclick="currentSlide(4)" alt="BRENT FAIYEZ">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album5.jpg.webp" style="width:100%"
+                            onclick="currentSlide(5)" alt="SZA">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album6.jpg" style="width:100%" onclick="currentSlide(6)"
+                            alt="FRANK OCEAN">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album7.jpeg" style="width:100%" onclick="currentSlide(7)"
+                            alt="JHENE AIKO">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album8.jpg" style="width:100%" onclick="currentSlide(8)"
+                            alt="H.E.R.">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album9.jpg" style="width:100%" onclick="currentSlide(9)"
+                            alt="KEHLANI">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album10.jpeg" style="width:100%" onclick="currentSlide(10)"
+                            alt="DESTIN CONRAD">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album11.jpg.webp" style="width:100%"
+                            onclick="currentSlide(11)" alt="TEMS">
+                    </div>
+                    <div class="column1">
+                        <img class="demo cursor" src="images/album12.jpg" style="width:100%" onclick="currentSlide(12)"
+                            alt="JACQUEES">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- footer, date of publish -->
+
+    <footer>
+        <p class="publish">© 2024 SPIN COVERS</p>
+    </footer>
+
+    <!-- html koppelen aan java -->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- bronvermelding: -->
+
+<!-- album1= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.newburycomics.com%2Fproducts%2Fmuni_long-public_displays_of_affection_the_album_deluxe_2lp&psig=AOvVaw2QdToyq6CCo7FQfUr4_HSZ&ust=1711202773641000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIjHqKCFiIUDFQAAAAAdAAAAABAI -->
+<!-- album2= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rcarecords.com%2Fnews%2Fvictoria-monet-releases-debut-album-jaguar-ii%2F&psig=AOvVaw15Cc1yGm3I214oX9Qz17GC&ust=1711203039929000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDjoZ2GiIUDFQAAAAAdAAAAABAD 
+    + https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FParental_Advisory&psig=AOvVaw1slH22ioF0PPohskg4kWiA&ust=1711203395303000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDcksaHiIUDFQAAAAAdAAAAABAD -->
+<!-- album3= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.complex.com%2Fmusic%2Fa%2Fmack%2Fsummer-walker-still-over-it-album-stream&psig=AOvVaw39C_T7RwEKMJ-LYXL0u7HP&ust=1711203069636000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIDW7KqGiIUDFQAAAAAdAAAAABAD -->
+<!-- album4= https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWasteland_%2528Brent_Faiyaz_album%2529&psig=AOvVaw1Y3ofhzGhHb04Rqpb3tnfH&ust=1711203091380000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMCwmbWGiIUDFQAAAAAdAAAAABAD -->
+<!-- album5= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thefader.com%2F2017%2F05%2F26%2Fsza-shares-ictrli-album-art&psig=AOvVaw0aUfcvtJJMW9uLThy55Qip&ust=1711203106030000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJi9kryGiIUDFQAAAAAdAAAAABAD -->
+<!-- album6= https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40ryan.singh1973%2Ffrank-oceans-blond-e-album-cover-is-beautifully-human-19da85b91079&psig=AOvVaw3rpcG6GVuu3xJ8Sb35_jec&ust=1711203120412000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLCmgsOGiIUDFQAAAAAdAAAAABAH -->
+<!-- album7= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deezer.com%2Fus%2Fartist%2F3841221&psig=AOvVaw2scFtqJpBQJLfV0M-VG6E2&ust=1711203139696000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIijmNCGiIUDFQAAAAAdAAAAABA3 -->
+<!-- album8= https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FH.E.R._%2528album%2529&psig=AOvVaw2MUdLRJ4AKkrO7u2dhBrKI&ust=1711203220340000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKCeq_OGiIUDFQAAAAAdAAAAABAD -->
+<!-- album9= https://www.google.com/url?sa=i&url=https%3A%2F%2Fhypebeast.com%2F2020%2F4%2Fkehlani-it-was-good-until-it-wasnt-new-album-info&psig=AOvVaw363X-gr7mSAEKRn8NaWoZh&ust=1711203248001000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDx8oGHiIUDFQAAAAAdAAAAABAD -->
+<!-- album10= https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F4cGY0jqWYTCIPwQRXHgKvy&psig=AOvVaw2oSU6aL5LXC_tWmxjJncw3&ust=1711203274158000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKDVno2HiIUDFQAAAAAdAAAAABAD -->
+<!-- album11= https://www.google.com/url?sa=i&url=https%3A%2F%2Fpitchfork.com%2Freviews%2Falbums%2Ftems-for-broken-ears-ep%2F&psig=AOvVaw1AAzITdUYZAlWDIAzdAIvX&ust=1711203293564000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDb0pWHiIUDFQAAAAAdAAAAABAD -->
+<!-- album12= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.merchbar.com%2Fr-b-hiphop-rap%2Fjacquees%2Fjacquees-4275-bonus-version-cd-2182329&psig=AOvVaw1gkctKQc7igDM0Guf93JXT&ust=1711203362216000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOiy97aHiIUDFQAAAAAdAAAAABAQ -->
+<!-- vinyl img= https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dvinyl&psig=AOvVaw0c1XNMXa4DbVoGC14TQQE3&ust=1711203457238000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDf6-OHiIUDFQAAAAAdAAAAABAS -->
